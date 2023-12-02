@@ -9,14 +9,14 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link href="/"> SpotiStats </Link>
+                <Link href="/" className="text-white"> SpotiStats </Link>
               </div>
             </div>
             <div className="hidden md:block">
                 <div className="ml-4 flex items-center space-x-4">
-                    <Link href="/recommendations"> Playlist Reccomendations</Link>
-                    <Link href="/statistics"> Account Statistics</Link>
-                    <Link href="/explore">Explore Similar Artists</Link>
+                    <Link href="/recommendations" className="text-white"> Playlist Reccomendations</Link>
+                    <Link href="/statistics" className="text-white"> Account Statistics</Link>
+                    <Link href="/explore" className="text-white">Explore Similar Artists</Link>
                 </div>
             </div>         
           </div>
